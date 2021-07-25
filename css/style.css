@@ -51,7 +51,7 @@ header {
 
 .header_btn::before {
   content: "\f0b1";
-  font-family: 'icomoon' !important;
+  font-family: "icomoon" !important;
   position: absolute;
   left: 22px;
   color: #1d1d1d;
@@ -78,7 +78,7 @@ header {
 
 .header_phone::before {
   content: "\f095";
-  font-family: 'icomoon' !important;
+  font-family: "icomoon" !important;
   position: absolute;
   left: 0;
   color: #ffc222;
@@ -90,7 +90,7 @@ header {
 
 .header_email::before {
   content: "\f003";
-  font-family: 'icomoon' !important;
+  font-family: "icomoon" !important;
   position: absolute;
   left: 0;
   color: #ffc222;
@@ -115,7 +115,7 @@ header {
   line-height: 36px;
   border: 1px solid transparent;
   padding: 0px 16px;
-  transition: all .3s;
+  transition: all 0.3s;
 }
 
 .menu a:hover {
@@ -124,4 +124,12 @@ header {
 
 .menu li + li {
   padding-left: 10px;
+}
+
+.slider {
+  background-image: url(../img/slide-fone.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 500px;
 }
